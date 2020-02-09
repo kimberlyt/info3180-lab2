@@ -1,0 +1,30 @@
+{% extends 'base.html' %} 
+
+{% block main %} 
+    <div class="card" >
+        <div class="img-container">
+            <img src={{ url_for('static', filename='pic.jpg')}} alt="grad-pic" >
+        </div>
+        <h1 class="top-info" >Kimberly Taylor</h1>
+        <p class="top-info">@ktaylor</p>
+        <p class="top-info">Kingston, Jamaica</p>
+        <p class="top-info">{{ date_joined }}</p>
+      <div class="bottom-info" >
+          <p> I aspire to be a UI Designer/ Web Developer. I have a background in graphic design. I would like to design and develop websites for growing companies so as to better their sales and customer interactions. Contact me if you'd like to work together on a new project.</p> 
+          <section class="section-numbers" > 
+            <p class="number-columns" > <strong>7</strong><br> Posts</p c>
+            <p class="number-columns"><strong >100</strong><br> Following</p>
+            <p class="number-columns"><strong >250</strong><br> Followers</p>
+          </section>
+            <section class="section-button"> 
+                <a href="#" class="button" >Follow</a>
+            </section>
+   
+    </div>
+          
+     
+     </div>
+     {% endblock %}   
+
+
+  
